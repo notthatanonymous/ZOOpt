@@ -59,7 +59,7 @@ install:
 # command to run tests
 script:
 #   - coverage run --source zoopt -m py.test
-  - python example/sparse_regression/poss_opt.py || python3 example/sparse_regression/poss_opt.py
+  - python example/parallel_opt/continuous_opt.py || python3 example/parallel_opt/continuous_opt.py
 
 branches:
   only:

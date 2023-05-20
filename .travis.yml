@@ -59,7 +59,7 @@ install:
 # command to run tests
 script:
 #   - coverage run --source zoopt -m py.test
-  - python example/direct_policy_search_for_gym/run.py || python3 example/direct_policy_search_for_gym/run.py
+  - example/parallel_opt/continuous_opt.py || python3 example/parallel_opt/continuous_opt.py
 
 branches:
   only:

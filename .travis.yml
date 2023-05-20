@@ -21,6 +21,5 @@ branches:
     - dev
     - master
 
-
 after_success:
     - code_cov

@@ -83,4 +83,6 @@ class ExpOpt:
             ToolFunction.log('Best %d result: %s +- %s' % (limit, mean_r, std_r))
         else:
             ToolFunction.log('Best %d results: %s +- %s' % (limit, mean_r, std_r))
+        
+        print(f"\n\n\nScore: {mean_r}\n\n\n")
         return mean_r, std_r

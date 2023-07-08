@@ -58,9 +58,9 @@ install:
 
 # command to run tests
 script:
-  - python example/sparse_regression/ponss_opt.py || python3 example/sparse_regression/ponss_opt.py
+#  - python example/sparse_regression/ponss_opt.py || python3 example/sparse_regression/ponss_opt.py
 #   - coverage run --source zoopt -m py.test
-#  - python example/sequential_random_embedding/continuous_sre_opt.py || python3 example/sequential_random_embedding/continuous_sre_opt.py
+  - python example/sequential_random_embedding/continuous_sre_opt.py || python3 example/sequential_random_embedding/continuous_sre_opt.py
 
 branches:
   only:
